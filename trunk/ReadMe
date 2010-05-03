@@ -1,0 +1,40 @@
+Crux is a cross-platform, multi-threading, high performance and easy-to-use network library. Though it is mainly developed for network games, it can also be used in other areas, such as IM software.
+
+If you have any problem, please contact me through email "Elvin.Yang.Go@gmail.com".
+
+platform
+-----------------
+Linux and Windows.
+In Linux, Crux is implemented in epoll.
+In Windows, Crux is implemented in IOCP.
+
+directory
+-----------------
+/bin
+	generated sample executable files
+/build
+	build project in this directory
+/configure 
+	configure file for client or server
+/doc 
+	documents
+/include
+	header files 
+/lib 
+	generated net library
+/src 
+	source files
+
+
+install
+------------------
+To compile the project, you must install CMake first.
+Then,
+1. Enter '/build' directory.
+2. Type 'cmake ..' command. 
+	It will generate Makefile in Linux or project file in Windows.
+3. In Linux, type 'make' to compile all the source files.
+   In Windows, open the project file in VC and compile all the source files.
+4. The generated net library will be in the '/lib' directory.
+   The sample executable files will be in the '/bin' directory.
+
