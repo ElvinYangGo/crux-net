@@ -1,0 +1,1 @@
+Crux is a cross-platform, multi-threading, high performance and easy-to-use network library. Though it is mainly developed for network games, it can also be used in other areas, such as IM software.
